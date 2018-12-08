@@ -12,7 +12,7 @@ CREATE TABLE `user_info` (
   `gender` tinyint(4) NOT NULL DEFAULT '0',
   `age` int(11) NOT NULL,
   `telphone` varchar(64) COLLATE utf8_unicode_ci NOT NULL,
-  `register_mode` varchar(64) COLLATE utf8_unicode_ci NOT NULL DEFAULT '' COMMENT '',
+  `register_mode` varchar(64) COLLATE utf8_unicode_ci NOT NULL DEFAULT '' COMMENT ' ',
   `third_party_id` varchar(64) COLLATE utf8_unicode_ci NOT NULL DEFAULT '' COMMENT ' ',
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
